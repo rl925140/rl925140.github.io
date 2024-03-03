@@ -1,0 +1,122 @@
+/* Basic Stylesheet for the HTML Template */
+
+/* Body and Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #000000;
+}
+
+.container {
+    max-width: 2400px;
+    margin: auto;
+    padding: 0 20px;
+    display:flex;
+    justify-content: center;
+}
+
+/* Header Styles */
+header {
+    background: #890620;
+    color: #BCE7FD;
+    min-height: 70px;
+    max-height:100px;
+    border-bottom: #1C3738 3px solid;
+    text-align: center;
+}
+
+header a img {
+    max-height: 70px;
+}
+
+article header {
+    background: #F59F99;
+    color: #333333;
+    max-width: 800px;
+    margin: auto;
+}
+
+article header h2 {
+    text-align: center;
+}
+
+
+header h1 a {
+    color: #BCE7FD;
+}
+
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #D6CE93;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration-line:underline;
+}
+
+/* Main and Article Styles */
+main {
+    padding: 20px 0;
+    background: #fff;
+    flex: 1;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #1C3738;
+}
+
+article header h2 {
+    margin: 0 0 15px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+    max-width: 800px;
+    display:flex;
+}
+
+.holder{
+    margin: 0 15px 0;
+}
+
+img {
+    max-height:200px;
+    margin-top:20px;
+}
+
+/* Footer Styles */
+footer {
+    background: #92AA83;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Add any additional styles below */
